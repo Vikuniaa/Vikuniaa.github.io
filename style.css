@@ -1,0 +1,49 @@
+L{
+    color:black;
+    
+
+
+
+
+}
+M{background-color: black;}
+p{
+    font-size: 23px;
+}
+.vl1{
+    border-left: 10px solid rgb(43, 43, 148) ;
+    height: 958px;
+    position: absolute;
+    top: 0% ;
+    left: 55%;
+}
+a{
+    color:green;
+}
+niebeski{
+    color: rgb(43, 43, 148) ;
+}
+.dexter{
+    position: absolute;
+    left: 1040px;
+    top: 20px;
+
+}
+.fistaszek{
+    position: absolute;
+    left: 1040px;
+    top: 350px;
+    
+}
+.albert{
+    position: absolute;
+    left: 1040px;
+    top: 680px;
+}
+.vl2{
+    border-left: 10px solid rgb(43, 43, 148) ;
+    height: 958px;
+    position: absolute;
+    top: 0% ;
+    left: 82%;
+}
