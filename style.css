@@ -1,21 +1,18 @@
-L{
+*{
     color:black;
-    
-
-
-
-
+    font-family: 'Montserrat Alternates', sans-serif;
 }
+
 M{background-color: black;}
 p{
     font-size: 23px;
 }
 .vl1{
     border-left: 10px solid rgb(43, 43, 148) ;
-    height: 958px;
+    height: 1285px;
     position: absolute;
-    top: 0% ;
-    left: 55%;
+    top: 1.1% ;
+    left: 66.5%;
 }
 a{
     color:green;
@@ -25,25 +22,88 @@ niebeski{
 }
 .dexter{
     position: absolute;
-    left: 1040px;
-    top: 20px;
+    left: 1025px;
+    top: 120px;
+    height: 100;
 
 }
 .fistaszek{
     position: absolute;
-    left: 1040px;
-    top: 350px;
+    left: 1025px;
+    top: 460px;
     
 }
 .albert{
     position: absolute;
-    left: 1040px;
-    top: 680px;
+    left: 1025px;
+    top: 970px;
 }
 .vl2{
     border-left: 10px solid rgb(43, 43, 148) ;
-    height: 958px;
+    height: 1285px;
     position: absolute;
-    top: 0% ;
-    left: 82%;
+    top: 1.1% ;
+    left: 99.3%;
+}
+header{
+    background-color: rgb(63, 63, 125);
+    height: 100px;
+}
+CV{
+    color: aliceblue;
+    font-size: 60px;
+    position: absolute;
+    left: 500px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.pierwszegooglefoto{
+    height: 100;
+}
+@media only screen and (min-width: 0) and (max-width: 800px){
+    .vl1{
+        border-left: 10px solid rgb(43, 43, 148) ;
+        height: 2060px;
+        position: left;
+        left: -4px;
+    }
+    .vl2{
+        border-left: 10px solid rgb(43, 43, 148) ;
+        height: 2060px;
+        position: left;
+        left: 360x;
+    }
+header{
+    background-color: rgb(63, 63, 125);
+
+}
+CV{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+.pierwszegooglefoto{
+    height: 160px;
+}
+.dexter{
+    height: 244px;
+    position: absolute;
+    left: 6px;
+    top: 1280px;
+}
+.fistaszek{
+    height: 244px;
+    position: absolute;
+    left: 6px;
+    top: 1540px;
+}
+.albert{
+    height: 244px;
+    position: absolute;
+    left: 6px;
+    top: 1800px;
+}
+
 }
