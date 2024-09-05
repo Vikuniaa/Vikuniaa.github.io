@@ -12,38 +12,42 @@ p{
     height: 1285px;
     position: absolute;
     top: 1.1% ;
-    left: 66.5%;
+    left: 54.7%;
 }
 a{
     color:green;
+}
+n
+{
+    color:rgb(37, 119, 214);
 }
 niebeski{
     color: rgb(43, 43, 148) ;
 }
 .dexter{
     position: absolute;
-    left: 1025px;
+    left: 100px;
     top: 120px;
     height: 100;
 
 }
 .fistaszek{
     position: absolute;
-    left: 1025px;
+    left: 1028px;
     top: 460px;
     
 }
 .albert{
     position: absolute;
-    left: 1025px;
-    top: 970px;
+    left: 1028px;
+    top: 960px;
 }
 .vl2{
     border-left: 10px solid rgb(43, 43, 148) ;
     height: 1285px;
     position: absolute;
     top: 1.1% ;
-    left: 99.3%;
+    left: 95.3%;
 }
 header{
     background-color: rgb(63, 63, 125);
@@ -59,6 +63,12 @@ CV{
 .pierwszegooglefoto{
     height: 100;
 }
+
+
+
+
+
+
 @media only screen and (min-width: 0) and (max-width: 800px){
     .vl1{
         border-left: 10px solid rgb(43, 43, 148) ;
@@ -88,16 +98,16 @@ CV{
     height: 160px;
 }
 .dexter{
-    height: 244px;
+    height: 230px;
     position: absolute;
     left: 6px;
-    top: 1280px;
+    top: 1000px;
 }
 .fistaszek{
     height: 244px;
     position: absolute;
     left: 6px;
-    top: 1540px;
+    top: 1800px;
 }
 .albert{
     height: 244px;
@@ -106,4 +116,44 @@ CV{
     top: 1800px;
 }
 
+}
+.button{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: black;
+    background-color: aliceblue;
+    font-size: 15px;
+}
+.Block{
+    display:none;
+    margin-left:0px;
+    padding:10px;
+    margin-top: 0px;
+    background:#f3f3f3;
+    height:200px;
+
+    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);  
+}
+.mama{
+    border: 0px;
+margin: 10px;
+padding: 0px;
+background-color: rgb(255, 255, 255);
+font-size: 30px;
+color: rgba(60, 114, 161, 0.856);
+}
+.holder1{
+    position: relative;
+    left: px;
+    top: 15px;
+}
+.holder1:hover .Block{
+    display:block;
+    position:absolute;
+    top:70px;
+    z-index:9999;
+    width:400px;
 }
