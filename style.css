@@ -3,6 +3,46 @@
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+
+html, body{
+
+
+
+}
+
+.custom-cursor{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.kotek-kursor{
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+
+#container{
+    margin: auto;
+    background-color: rgb(70, 145, 155);
+}
+#bg{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.Block{
+    margin: 0;
+
+    padding: 0%;
+    background-color: black;
+    height: 200px;
+
+}
+
 M{background-color: black;}
 p{
     font-size: 23px;
@@ -146,45 +186,4 @@ CV{
     left: 6px;
     top: 100%;
 }
-.button{
-    margin: 0;
-    border: 0;
-    padding: 0;
-    color: black;
-    background-color: aliceblue;
-    font-size: 15px;
 }
-.Block{
-    display:none;
-    margin-left:0px;
-    padding:10px;
-    margin-top: 0px;
-    background:#f3f3f3;
-    height:200px;
-
-    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
-    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
-    box-shadow:0 5px 5px rgba(0,0,0,0.3);  
-}
-.mama{
-    border: 0px;
-margin: 10px;
-padding: 0px;
-background-color: rgb(255, 255, 255);
-font-size: 30px;
-color: rgba(60, 114, 161, 0.856);
-}
-.holder1{
-    position: relative;
-    left: px;
-    top: 15px;
-}
-.holder1:hover .Block{
-    display:block;
-    position:absolute;
-    top:70px;
-    z-index:9999;
-    width:400px;
-}
-}
-
